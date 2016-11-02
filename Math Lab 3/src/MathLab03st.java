@@ -131,7 +131,6 @@ class Rational
 	
 	public void add(Rational r1, Rational r2)
 	{
-		int gcf = getGCF(r1.getDen(),r2.getDen());
 		num = (r1.getNum() * r2.getDen()) + (r2.getNum() * r1.getDen());
 		den = r1.getDen() * r2.getDen();
 	}
